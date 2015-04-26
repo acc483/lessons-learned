@@ -1,0 +1,13 @@
+This summarize the key points when checking a project on Github
+Github allows the project manager to monitor the progress of each developer by checking on the branches and issue raised by the developer. 
+Depending on the project, the code can be made available to the public and made private. For open source developing, if the software is interesting enough, there is a chance that other Github users will fork the repository and start improving the project on the side. If the project manager like the changes, he/she can merge these improvement back to the main branch. 
+The project management can also pay a small amount to Github to make his/her project private, if he/she is working on a development which is confidential or have proprietary information. 
+It is easy to comment on particular issues and change the work of the developers once the project manager specified the collaborater of the projects. Images like this:
+![yup](https://cloud.githubusercontent.com/assets/11998840/7323614/dd59ebac-ea7d-11e4-8f8c-98ed7a2003e2.gif)
+can be added to the comments to make the message more concrete or interesting. 
+A collaborater can also raised an issue on Github if he/she finds some problem with the code written so far, the below link demonstrates how to raise an issue in Github:
+https://guides.github.com/features/issues/
+Furthermore, branches in Github are useful tool to make changes to a development without commiting the new features to the main development before other collaboraters have a chance to review the new features. When creating a new branch, a meaningful name should be given to the files to avoid confusion when a third party look at the repository.  
+Before merging a new branch to the main repositary, at least one other collaborater should approve the changes and the creater of the branch should perform the merge action himself to avoid any last minute unexpected issues. 
+Both issue and branch should be as short as possible, an ideal length for an issue would be around 3 lines of code. This can help with effective software development. As the task are broken down into smaller pieces, unit testing would be easier and the progress of the development can be more readily tracked. 
+With good test coverage ratio and good integration test, Github can be used as a platform for continuous software delivery. 
